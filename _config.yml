@@ -1,0 +1,7 @@
+# Redcarpet is a markdown processor
+# It's the thing that converts Markdown tpo HTML
+# GitHub uses Redcarpet for conversion so we want to remain consistent
+markdown: redcarpet
+# The folder our website is hosted in
+# Everything that comes after http://chrismantil.github.io
+baseurl: /dinosaurs
