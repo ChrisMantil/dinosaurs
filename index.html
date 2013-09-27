@@ -18,11 +18,12 @@ layout: default
 <h2>Herbivores</h2>
 <ul>
 {% for dino in site.pages %}
-	{% if dino.category == "herbivores" %}
+	{% if dino.category == "herbivore" %}
 	<li>{{dino.name}}</li>
 	{% endif %}
 {% endfor %}
 </ul>
+
 
 
 
